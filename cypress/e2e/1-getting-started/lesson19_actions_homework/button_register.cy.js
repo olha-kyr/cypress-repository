@@ -37,5 +37,6 @@ it.only('register button is active, user is registered', () => {
     cy.get('.btn-primary').contains('Register').should('be.visible');
     cy.get('.btn-primary').should('have.css', 'background-color', 'rgb(2, 117, 216)');
     cy.get('.btn-primary').contains('Register').click();
+    cy.url().should('contain', '/garage');
     });
 });
