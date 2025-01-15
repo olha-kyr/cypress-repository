@@ -27,7 +27,7 @@ it('passwords do not match + register button is inactive', () => {
     cy.get('.btn-primary').contains('Register').should('be.disabled');
     });
 
-it.only('register button is active, user is registered', () => {
+it('register button is active, user is registered', () => {
     cy.get('.btn-primary').click();
     cy.get('#signupName').click().type('Secondttestname');
     cy.get('#signupLastName').click().type('sggdgdgq');
