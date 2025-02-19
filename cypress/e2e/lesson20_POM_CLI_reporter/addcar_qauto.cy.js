@@ -10,7 +10,7 @@ describe('add a car form default state', () => {
         HomePageQauto.openSignInForm();          
     })
 
-it.only('successful login + add car default state', () => {
+it('successful login + add car default state', () => {
 
     SignInFormQauto.enterEmail('olhakyrychenko21+testUser1@gmail.com');
     cy.wait(2000);
