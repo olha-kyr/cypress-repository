@@ -15,6 +15,7 @@
     "mochawesome-report-generator": "^6.2.0"
   },
   "dependencies": {
+    "cypress-plugin-api": "^2.11.2",
     "node": "^23.7.0"
   }
 }

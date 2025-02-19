@@ -4,7 +4,7 @@ import { beforeRunHook, afterRunHook } from 'cypress-mochawesome-reporter/lib/in
 export default defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   e2e: {   
-    //baseUrl:'https://example.cypress.io',
+    baseUrl:'https://qauto.forstudy.space',
         setupNodeEvents(on, config) {
           on('before:run', async (details) => {
             await beforeRunHook(details);
